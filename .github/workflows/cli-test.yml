@@ -16,7 +16,7 @@ jobs:
         uses: actions/checkout@v2
         with:
           # Disabling shallow clone is recommended for improving relevancy of reporting
-          # Dummy
+          # Dummy 2
           fetch-depth: 0
       - run: make install
       - name: Use Node.js ${{ matrix.node-version }}
